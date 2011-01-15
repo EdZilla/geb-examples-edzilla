@@ -13,6 +13,12 @@ grails.project.dependency.resolution = {
     }
     dependencies {
 //		test "org.seleniumhq.selenium:selenium-firefox-driver:latest.integration"
-		test "org.seleniumhq.selenium:selenium-chrome-driver:2.0a7"
+      //test 'org.seleniumhq.selenium:selenium-firefox-driver:2.0a7'
+		test "org.seleniumhq.selenium:selenium-chrome-driver:2.0a7"    
+
+        //test ('org.seleniumhq.selenium:selenium-htmlunit-driver:2.0a7') {
+//            exclude 'xml-apis'
+//        }
+    
     }
 }
